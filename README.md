@@ -1,18 +1,18 @@
 # Twilio Proxy Integration Example
 
-### Run the App
+### Getting Started
 
 * git clone
 * bundle install
 
 ### Set up the Environment
 
-*To run this app you will need to have a twilio account and a subaccount and be able to access the twilio api through the twilio console
+* To run this app you will need to have a twilio account and a subaccount and be able to access the twilio api through the twilio console
 
-*Furthermore, you will need to buy at least one twilio powered phone number to populate the Proxy Number Pool. This number can't be used for any other processes. As soon as you have a number available, take a note for the phone_number's sid
+* Furthermore, you will need to buy at least one twilio powered phone number to populate the Proxy Number Pool. This number can't be used for any other processes. As soon as you have a number available, take a note for the phone_number's sid
 Click [here](https://www.twilio.com/docs/proxy/quickstart#purchase-a-twilio-phone-number) for more info
 
-*Last, you will need to create a file at your local directory and add your twilio credentials(account_sid, auth_token), with the name ".twilio_config.json"
+* Last, you will need to create a file at your local directory and add your twilio credentials(account_sid, auth_token), with the name ".twilio_config.json"
 
 
 ```
@@ -25,7 +25,7 @@ Click [here](https://www.twilio.com/docs/proxy/quickstart#purchase-a-twilio-phon
 }
 ```
 
-###Make an SMS conversation
+### Make an SMS conversation
 
 As soon as the above are set up you should be able to do the following by running these commands in your local directory of the app
 
